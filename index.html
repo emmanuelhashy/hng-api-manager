@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="custom-container">
+        <nav class="sidebar">
+            <div class="title">
+                <h1 class="header-1">Manage API</h1>
+            </div>
+            <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                    <a href="#" id="side-nav__link--active" class="side-nav__link ">
+                        <span>All API</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <span>Overviews</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <span>Analytics</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <span class="user-link">Users</span>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <span id="dis-block">Active Users</span>
+                    </a>
+                </li> 
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <span>Payment</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main">
+            <header class="header">
+                <nav class="user-nav">
+                    <div class="user-nav__user">
+                        <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-mail"></use>
+                        </svg>
+                        <span class="user-nav__notification ">13</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bell"></use>
+                        </svg>
+                        <span class="user-nav__notification user-nav__notification--bell">13</span>
+                    </div>
+                </nav>
+                <form action="#" class="search">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                    <input type="text" class="search__input" placeholder="Search">
+                </form>
+            </header>
+            <div class="content">
+                <div class="content-heading">
+                    <h2>SMS API</h2>
+                </div>
+                <div class="content-box">
+                    <nav class="nav nav-tabs" id="myTab" role="tablist">
+                        <a class="nav-item nav-link active users-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <svg class="users-nav-link__icon">
+                                <use xlink:href="img/sprite.svg#icon-network"></use>
+                            </svg>
+                            <span>Users</span>
+                        </a>
+                        <a class="nav-item nav-link users-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Settings</a>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="date-box">
+                                <h3 class="date">June.17.2020</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Endpoint</th>
+                                        <th>Time</th>
+                                        <th>Location</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewale Matheew</td>
+                                        <td>xxxxxxxxxx</td>
+                                        <td>12:55:46 A.M</td>
+                                        <td>Lagos, Nigeria</td>
+                                        <td><span class="status"></span></td>
+                                    </tr>
+                                    
+                                    </tbody>
+                                </table>
+                                </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
