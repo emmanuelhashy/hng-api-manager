@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 :root {
     --color-primary: #eb2f64;
     --color-primary-light: #FF3366;
@@ -43,7 +44,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     /* color: var(--color-grey-dark-2);
@@ -71,7 +72,7 @@ body {
 }
 .side-nav {
     flex: 0 0 18%;
-    height: 800px;
+    height: 700px;
     font-size: 1.4rem;
     list-style: none;
     /* margin-top: 3.5rem; */
@@ -116,9 +117,9 @@ body {
     
 }
 #side-nav__link--active {
-    font-family: Montserrat;
+    font-family: "Karla", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2rem;
     color: #FFFFFF;
 }
@@ -134,9 +135,9 @@ body {
 
 /* HEADER CLASSES */
 .header-1 {
-    font-family: Montserrat;
+    font-family: "Karla", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3.5rem;
     color: var(--color-green-1);
     margin: 2rem 3rem;
@@ -209,18 +210,18 @@ body {
 }
 .content-heading {
     color: #FD9827;
-    font-family: Montserrat;
+    font-family: inherit;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2rem;
     padding: 2rem 2rem;
 }
 
 /* MAIN NAV LINKS */
 .users-link{
-    font-family: Montserrat;
+    font-family: inherit;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 25px;
     line-height: 30px;
     color: #353535;
@@ -233,9 +234,9 @@ body {
 
 /* TABLE */
 th{
-    font-family: Gilroy;
+    font-family: inherit;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.8rem;
     line-height: 22px;
     color: #353535;
@@ -244,7 +245,7 @@ td {
     white-space: nowrap;
 }
 td:first-child {
-    font-family: Montserrat;
+    font-family: inherit;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -253,7 +254,7 @@ td:first-child {
 }
 
 td:not(:first-child){
-    font-family: Montserrat;
+    font-family: inherit;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -284,7 +285,7 @@ td:not(:first-child){
 .date {
     padding: .5rem 1.5rem;
     background-color: rgba(249, 223, 184, 0.67);
-    font-family: Montserrat;
+    font-family: inherit;
     font-style: normal;
     font-weight: normal;
     font-size: 1.8rem;
@@ -334,9 +335,9 @@ td:not(:first-child){
     fill: #31AA52;;
 } 
 .user-link {
-    font-family: Montserrat;
+    font-family: inherit;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     color: #353535;
 }
 .user-nav__notification {
@@ -545,9 +546,9 @@ td:not(:first-child){
     }
 
     #side-nav__link--active {
-        font-family: Montserrat;
+        font-family: inherit;
         font-style: normal;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 1.1rem;
         color: #FFFFFF;
     }
